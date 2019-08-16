@@ -18,7 +18,7 @@ class matrix
    System.out.println("Enter the elements of array 2:");
    for(i=0;i<a;i++)
    {
-    for(j=o;j<b;j++)
+    for(j=0;j<b;j++)
     arr2[i][j]=sc.nextInt();
    }
   int c[][]=new int[a][b];
@@ -39,3 +39,4 @@ class matrix
      d[i][j]=arr1[i][j]-arr2[i][j];
      System.out.println(d[i][j]);
     }}
+}}
